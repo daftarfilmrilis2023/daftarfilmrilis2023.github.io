@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 html,
 body {
@@ -39,6 +40,7 @@ body {
 }
 
 .scroll-area .text {
+    text-align: center;
     font-weight: bold;
     font-size: 32px;
 }
@@ -51,6 +53,7 @@ body {
 }
 
 .scroll-area .bella {
+    transform: translateX(10px);
     margin-top: -100px;
 }
 
@@ -89,12 +92,12 @@ audio {
     text-decoration: none;
 }
 
-.playButton {
+#ok {
     user-select: none;
     transition: opacity 0.2s;
 }
 
-.playButton:hover {
+#ok:hover {
     cursor: pointer;
     background: #053056;
 }

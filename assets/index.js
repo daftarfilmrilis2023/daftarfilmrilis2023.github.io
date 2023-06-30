@@ -1,12 +1,12 @@
-// const audio = new Audio("../assets/One Direction - What Makes You Beautiful.mp3");
-// console.log("OIASJDGFIOSJDGF")
 
-// const buttons = document.querySelectorAll(".playButton");
+console.log("OIASJDGFIOSJDGF")
+
+const buttons = document.querySelectorAll("#ok");
+const page = document.querySelector("#musicpage")
 
 
-// buttons.forEach(button => {
-//     button.addEventListener("click", () => {
-//         console.log("CLICKED");
-//       audio.play();
-//     });
-//   });
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        page.scrollIntoView({behavior: "smooth"});
+    });
+  });
